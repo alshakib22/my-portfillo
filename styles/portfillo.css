@@ -32,7 +32,7 @@ ul{
     list-style-type: none;
 }
 nav .menu a{
-font-size: 20px;
+    font-size: 20px;
     text-decoration: none;
     color: #474747;
     align-items: center;
@@ -53,3 +53,41 @@ font-size: 45px;
 color: #fd6e0a;
 font-size: 900;
 }
+#banner {
+    margin: 47px 38px 0px 230px ;
+    display: flex; 
+    justify-content: space-between;
+    align-items: center;
+    padding: 80px 100px;
+}
+ #banner .banner-content{
+    display: grid;  
+    max width: 585px;
+}
+#banner .banner-content h1{
+    font-weight: 600;
+    color: #474747;
+    font-size: 45px;
+    margin-bottom: 5px;
+    
+}
+#banner .banner-content h2{
+    font-size: 85px;
+    font-weight: bold;
+    color: black;
+    margin-bottom:20px;
+}
+
+#banner .banner-content p{
+    font-size: 18px;
+    line-height: 30px;
+    color: #474747;
+    margin-bottom: 30px;
+} #banner .banner-image{
+    width: 584px;
+    height: 676px 
+}
+ #banner .button{
+     display: inline-block;
+  margin-right: 20px;
+ }
